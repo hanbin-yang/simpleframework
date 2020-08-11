@@ -36,7 +36,7 @@ public class HelloServlet extends HttpServlet {
         headLine.getLineId();
     }
     @Override
-    public  void destroy(){
+    public void destroy(){
         System.out.println("Destroy...");
     }
 }
